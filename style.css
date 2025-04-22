@@ -1,0 +1,57 @@
+
+.main {
+    width: auto;
+    height: 687px;
+    background-color: lightblue;
+    margin: auto 50px;
+    border: 1px solid rgb(38, 56, 95);
+    box-shadow: 0px 0px 25px rgb(38, 56, 95);
+}
+
+.nav {
+    width: auto;
+    height: 20%;
+    background-color: rgb(69, 104, 170);
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(38, 56, 95);
+    box-shadow: 10px 10px 250px rgb(0, 0, 0);
+}
+
+.title, .point_viewer, .settings {
+    float: left;
+    width: 50%;
+    padding-left: 25px;
+}
+
+
+#game_field {
+    width: auto;
+    height: 80%;
+    background-color: rgb(189, 189, 233);
+    position: relative;
+}
+
+
+#game_block {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+
+.settings {
+    margin-top: 15px;
+}
+
+
+.cb_settings {
+    font-size: 25px;
+}
+
+
+
+

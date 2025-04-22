@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="nav">
+            <div class="title">
+                <h1>Point Game</h1>
+            </div>
+            <div class="settings">
+                <form>
+                    <label class="cb_settings">
+                        <input type="checkbox" name="random_color" id="r_color">
+                        Random color
+                    </label><br>
+                    <label class="cb_settings">
+                        <input type="checkbox" name="random_size" id="r_size">
+                        random_size
+                    </label>
+                </form>
+
+            </div>
+            <div class="point_viewer">
+                <h2 id="score_text">Your Score: 0</h2>
+            </div>
+        </div>
+        <div id="game_field">
+            <div id="game_block"></div>
+        </div>
+    </div>
+</body>
+</html>
